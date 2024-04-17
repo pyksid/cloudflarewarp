@@ -22,7 +22,7 @@ const (
 // Config the plugin configuration.
 type Config struct {
 	TrustIP             []string `json:"trustip,omitempty"`
-	DisableDefaultCFIPs bool     `json:"disableDefault,omitempty"`
+	DisableDefaultCFIPs bool     `json:"disabledefaultcfips,omitempty"`
 }
 
 // TrustResult for Trust IP test result.
