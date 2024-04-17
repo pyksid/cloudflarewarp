@@ -41,4 +41,4 @@
   watch="true"
 
 [experimental.localPlugins.cloudflarewarp]
-  moduleName = "github.com/BetterCorp/cloudflarewarp"
+  moduleName = "github.com/pyksid/cloudflarewarp"

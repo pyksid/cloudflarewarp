@@ -1,11 +1,11 @@
 # Real IP from Cloudflare Proxy/Tunnel
 
-[![Code Coverage](https://codecov.io/gh/BetterCorp/cloudflarewarp/branch/master/graph/badge.svg?token=QFGZS5QJSG)](https://codecov.io/gh/BetterCorp/cloudflarewarp)
-[![Code Analysis](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codeql-analysis.yml)
-[![Codacy Security Scan](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/codacy-analysis.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/BetterCorp/cloudflarewarp)](https://goreportcard.com/report/github.com/BetterCorp/cloudflarewarp)
-[![Build and Test Source](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/buildAndTest.yml)
-[![Integration Test](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/prodTest.yml/badge.svg)](https://github.com/BetterCorp/cloudflarewarp/actions/workflows/prodTest.yml)
+[![Code Coverage](https://codecov.io/gh/pyksid/cloudflarewarp/branch/master/graph/badge.svg?token=QFGZS5QJSG)](https://codecov.io/gh/pyksid/cloudflarewarp)
+[![Code Analysis](https://github.com/pyksid/cloudflarewarp/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/pyksid/cloudflarewarp/actions/workflows/codeql-analysis.yml)
+[![Codacy Security Scan](https://github.com/pyksid/cloudflarewarp/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/pyksid/cloudflarewarp/actions/workflows/codacy-analysis.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pyksid/cloudflarewarp)](https://goreportcard.com/report/github.com/pyksid/cloudflarewarp)
+[![Build and Test Source](https://github.com/pyksid/cloudflarewarp/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/pyksid/cloudflarewarp/actions/workflows/buildAndTest.yml)
+[![Integration Test](https://github.com/pyksid/cloudflarewarp/actions/workflows/prodTest.yml/badge.svg)](https://github.com/pyksid/cloudflarewarp/actions/workflows/prodTest.yml)
 
 If Traefik is behind a Cloudflare Proxy/Tunnel, it won't be able to get the real IP from the external client as well as other information.
 
@@ -37,7 +37,7 @@ If you do not define `trustip` and `disableDefault`, it doesn't seem to load the
 experimental:
   plugins:
     cloudflarewarp:
-      modulename: github.com/BetterCorp/cloudflarewarp
+      modulename: github.com/pyksid/cloudflarewarp
       version: v1.3.0
 ```
 
@@ -71,7 +71,7 @@ http:
 
 # Testing
 
-[https://github.com/BetterCorp/cloudflarewarp/tree/master/test](https://github.com/BetterCorp/cloudflarewarp/tree/master/test)
+[https://github.com/pyksid/cloudflarewarp/tree/master/test](https://github.com/pyksid/cloudflarewarp/tree/master/test)
 
 We have written the following tests in this repo:
 

@@ -43,5 +43,5 @@
 [experimental]
   [experimental.plugins]
     [experimental.plugins.cloudflarewarp]
-      moduleName = "github.com/BetterCorp/cloudflarewarp"
+      moduleName = "github.com/pyksid/cloudflarewarp"
       version = "v1.3.0"
