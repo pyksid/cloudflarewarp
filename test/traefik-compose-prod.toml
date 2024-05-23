@@ -6,14 +6,12 @@
   [entryPoints.web]
     address = ":80"
 
-[providers.docker]
+[providers.swarm]
   endpoint = "unix:///var/run/docker.sock"
-  swarmMode = false
-
   exposedByDefault = false
   network = "test-instance_proxy"
   watch = true
-  swarmModeRefreshSeconds = 5
+  refreshSeconds = 5
 
 [traefikLog]
   filePath = "/var/logs/traefik/traefik.log"

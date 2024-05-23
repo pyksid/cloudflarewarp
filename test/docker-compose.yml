@@ -1,5 +1,3 @@
-version: "3.8"
-
 networks:
   proxy:
     internal: true
@@ -32,7 +30,7 @@ services:
       - proxy
       - default
     ports:
-      - 4008:80
+      - "4008:80"
     volumes:
       - ./traefik-compose.toml:/etc/traefik/traefik.toml
       - ./logs:/var/logs/traefik
